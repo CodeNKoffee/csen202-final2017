@@ -67,8 +67,8 @@ public class Hotel {
     h.addReservation(r3);
     h.addReservation(r4);
     h.printRentalList();
-    System.out.println("Average days rented out is: "+h.getAvgDays());
-    System.out.println("Total rental income is: "+h.getTotalRentalSales());
+    System.out.println("Average days rented out is: "+ h.getAvgDays());
+    System.out.println("Total rental income is: "+ h.getTotalRentalSales());
     h.findReservation(222);
     h.findReservation(200);
   }
