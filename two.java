@@ -1,3 +1,4 @@
+// Exercise 2A & B
 public class two {
   public static void main(String[] args) {
     // int[] a = {21, 8, 15, 0, -3, 32};
