@@ -1,7 +1,17 @@
 public class two {
   public static void main(String[] args) {
-    int[] a = {21, 8, 15, 0, -3, 32};
-    int n = 3;
+    // int[] a = {21, 8, 15, 0, -3, 32};
+    // int n = 3;
+    // int[] expandedArr = expand(a, n);
+    // for (int element : expandedArr) {
+    //   System.out.print(element + " ");
+    // }
+    int n = Integer.parseInt(args[args.length - 1]);
+    int[] a = new int[args.length - 1];
+    for (int  i = 0; i < args.length - 1; i++) {
+      a[i] = Integer.parseInt(args[i]);
+    }
+
     int[] expandedArr = expand(a, n);
     for (int element : expandedArr) {
       System.out.print(element + " ");
